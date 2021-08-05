@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+/** @format */
+import React from 'react'
+import './Styles/App.css'
+import 'bootstrap/dist/css/bootstrap.css'
+import {sounds} from './Assets/drumConsts'
+import {DrumPad} from './Components/BoxComponent'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {}
+  }
+
+  render() {
+    return (
+      <div className="container" id="drum-machine">
+        <div id="display" className="display">
+          {sounds.map((sound, idx) => (
+            <DrumPad text={sound.key} key={idx} audio={sound.mp3}></DrumPad>
+          ))}
+          <br></br>
+          <h1>Play a sound</h1>
+        </div>
+      </div>
+    )
+  }
 }
 
-export default App;
+//const Box = props => <div className="box">{props.text}</div>
+
+export default App
