@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-Drum-Machine/static/css/main.1cfd83a4.chunk.css",
+    "main.js": "/React-Drum-Machine/static/js/main.47a63513.chunk.js",
+    "main.js.map": "/React-Drum-Machine/static/js/main.47a63513.chunk.js.map",
+    "runtime-main.js": "/React-Drum-Machine/static/js/runtime-main.fad261ed.js",
+    "runtime-main.js.map": "/React-Drum-Machine/static/js/runtime-main.fad261ed.js.map",
+    "static/css/2.455652b6.chunk.css": "/React-Drum-Machine/static/css/2.455652b6.chunk.css",
+    "static/js/2.84508c99.chunk.js": "/React-Drum-Machine/static/js/2.84508c99.chunk.js",
+    "static/js/2.84508c99.chunk.js.map": "/React-Drum-Machine/static/js/2.84508c99.chunk.js.map",
+    "index.html": "/React-Drum-Machine/index.html",
+    "static/css/2.455652b6.chunk.css.map": "/React-Drum-Machine/static/css/2.455652b6.chunk.css.map",
+    "static/css/main.1cfd83a4.chunk.css.map": "/React-Drum-Machine/static/css/main.1cfd83a4.chunk.css.map",
+    "static/js/2.84508c99.chunk.js.LICENSE.txt": "/React-Drum-Machine/static/js/2.84508c99.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fad261ed.js",
+    "static/css/2.455652b6.chunk.css",
+    "static/js/2.84508c99.chunk.js",
+    "static/css/main.1cfd83a4.chunk.css",
+    "static/js/main.47a63513.chunk.js"
+  ]
+}
